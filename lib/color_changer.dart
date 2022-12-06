@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter_custom_controller/color_changer_controller.dart';
 
 
+/// Implements the mechanism for picking a new color when needed.
 class ColorChanger extends StatefulWidget {
   ColorChanger({
     required this.controller,

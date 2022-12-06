@@ -8,6 +8,7 @@ void main() {
   runApp(MyApp());
 }
 
+/// The main class with home page [ColorChangerTest].
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/// Lays out the home page UI elements and listens for changes.
 class ColorChangerTest extends StatefulWidget {
   @override
   _ColorChangerTestState createState() => _ColorChangerTestState();
