@@ -51,6 +51,8 @@ class _ColorChangerTestState extends State<ColorChangerTest> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            SizedBox(height: 8,),
+            Text('Philip Johnson'),
             ColorChanger(
               controller: controller
             ),
